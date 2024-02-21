@@ -10,6 +10,7 @@ Project Phases:
 1. I proposed this project based on recent articles and viral media surrounding the lack of pockets in women's pants. I named the project "Pink Text," referencing the Pink Tax on women's products. 
 
 AmazonApparel.ipynb
+
 2. Finding the data: I used API to import an Amazon US Reviews dataset (now defunct) from Hugging Face to notebook
 3. Challenge: could not find category for gender in dataset. Other public datasets have the same issue. Webscraping would take too much time and money.
 - Solution: I used a novel approach, applying RegEx to extract the dataset necessary for this project, and wrote the final code for the final project submission.

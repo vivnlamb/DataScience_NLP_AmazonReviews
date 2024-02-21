@@ -13,7 +13,7 @@ AmazonApparel.ipynb
 
 2. Finding the data: I used API to import an Amazon US Reviews dataset (now defunct) from Hugging Face to notebook
 3. Challenge: could not find category for gender in dataset. Other public datasets have the same issue. Webscraping would take too much time and money.
-- Solution: I used a novel approach, applying RegEx to extract the dataset necessary for this project, and wrote the final code for the final project submission.
+- **Solution: I used a novel approach, applying RegEx to extract the dataset necessary for this project, and wrote the final code for the final project submission.**
 - genderless_pant_table: does not contain "women, men, boy, girl"
 - gender_pant: contains "women, men"
 - RegEx string: "(wo|m)(a|e)n|boy|girl"

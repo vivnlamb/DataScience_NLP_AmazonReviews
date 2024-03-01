@@ -25,8 +25,29 @@ AmazonApparel.ipynb
 - gender_pant: contains "women, men"
 - RegEx string: "(wo|m)(a|e)n|boy|girl"
 
-## Part 3: Data Analysis and Visualization
+5. Cleaning and preprocessing:
+- “Bag of Words” used to divide indicator words for the classifier, a list of sentences joined as one string. All words lower cased, and stop words are removed.
 
-5. I used Naive Bayes Classifier and applied it to genderless pants to find features associated with positive and negative ratings in Amazon reviews for Women’s and Men’s pants.
-6. I used different visualization methods, e.g. word cloud, to summarize results for non-technical audiences.
-7. I provided the results to my team, and we created a list of actionable insights for product improvements and marketing around pants and gender.
+6. Exploratory Data Analysis (EDA):
+- The ratings for each dataset was graphed, showing interesting results. In these datasets, it was surprising that pants without gender in the product title had more high ratings and less low ratings than both men’s and women’s pants. Unsurprisingly, women’s pants had more low ratings and less high ratings than men’s pants.
+
+
+## Part 3: Data Analysis, Modeling, and Visualization
+
+7. NLTK Frequency Distribution was used to label each word with its count. The positive and negative word lists were combined into one set, then shuffled and split.
+- I used Python’s Natural Language Toolkit (NLTK)
+- I used NLTK frequency distribution to find the most common words, then the Naive Bayes classifier in the training and testing process, which allowed us to see the words most likely to lead to positive or negative classification in reviews.
+
+## Results:
+Naive Bayes was used to classify words in reviews as negative and positive, with a 70-80% accuracy across the three datasets (pants without gender, women’s pants, men’s pants). We intend to continue working on this project, with these improvements and further exploratory research concepts in mind:
+
+Regression and predictive model for binary sentiment. Focus on Genderless Pants as a category for the market.
+We can continue using sentiment analysis to predict if a review would be positive or negative, and build a predictive model. After the data has been classified by sentiment analysis, we can use logistic regression. We can convert text into numerical value, positive or negative, then use that as 0/1 value as predictor. The model will take the numerically expressed features as input, and the output is predicted binary sentiment.
+
+The Genderless Pants also have more High Ratings and less Low Ratings than BOTH Men's Pants and Women's pants, so we can continue to find features in the Amazon Reviews to expand this product as a category for NonBinary customers.
+
+## Next Step:
+
+Now that ChatGPT made "traditional" NLP data modeling methods like the one I used outdated overnight, I plan to apply Large Language Models to the same dataset, and compare the results.
+
+

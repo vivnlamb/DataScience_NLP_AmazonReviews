@@ -1,6 +1,9 @@
 # NLP_PinkText_Analysis
 Role: Team Lead, ideator and programmer for "Pink Text." 
 
+https://www.canva.com/design/DAFhDrUMmPc/CstadgJD0bgw43kseo2T-w/view?utm_content=DAFhDrUMmPc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+
 Purpose: use sentimental analysis on pants marketed towards different genders. 
 
 Organization: submitted to Samsung AI as Capstone Project.
